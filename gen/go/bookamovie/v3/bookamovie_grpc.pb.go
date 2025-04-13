@@ -4,7 +4,7 @@
 // - protoc             v5.29.3
 // source: bookamovie.proto
 
-package bookamoviev2
+package bookamoviev3
 
 import (
 	context "context"

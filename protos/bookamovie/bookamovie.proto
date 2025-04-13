@@ -5,7 +5,7 @@ package bookamovie;
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto"; 
 
-option go_package = "bookamovie/v2;bookamovie";
+option go_package = "bookamovie/v3;bookamoviev3";
 
 service BookaMovie {
     rpc Book (BookRequest) returns (BookResponse);
@@ -42,7 +42,4 @@ message BookRequest {
 
 message BookResponse {
     Order order = 1;
-    Cinema cinema = 2;
-    Movie movie = 3;
-    Session session = 4; 
 }
