@@ -1,13 +1,13 @@
 syntax = "proto3";
 
-package bookamovie;
+package book;
 
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto"; 
 
-option go_package = "bookamovie/v3;bookamoviev3";
+option go_package = "book/v3;bookv3";
 
-service BookaMovie {
+service Book {
     rpc Book (BookRequest) returns (BookResponse);
 }
 
